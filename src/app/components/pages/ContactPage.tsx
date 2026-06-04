@@ -45,7 +45,7 @@ export function ContactPage() {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+966 55 123 4567', '+966 54 321 7654'],
+      details: ['+966 50 020 8019', '+966 54 321 7654'],
     },
     {
       icon: Mail,

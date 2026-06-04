@@ -14,7 +14,7 @@ export function StatsSection() {
     },
     {
       icon: Users,
-      value: '200+',
+      value: '480+',
       label: 'Satisfied Clients',
       description: 'Trust us for their business needs',
     },
