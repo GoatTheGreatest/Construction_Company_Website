@@ -251,11 +251,23 @@ export function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-[#F5F5F5] mb-2">{info.title}</h3>
-                      {info.details.map((detail, idx) => (
-                        <p key={idx} className="text-[#999999] mb-1">
-                          {detail}
-                        </p>
-                      ))}
+                      {info.details.map((detail, idx) => {
+                        if (info.title === 'Phone') {
+                          const phoneDigits = detail.replace(/\D/g, '');
+                          return (
+                            <p key={idx} className="text-[#999999] mb-1">
+                              <a href={`https://wa.me/${phoneDigits}`} target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:underline">
+                                {detail}
+                              </a>
+                            </p>
+                          );
+                        }
+                        return (
+                          <p key={idx} className="text-[#999999] mb-1">
+                            {detail}
+                          </p>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
