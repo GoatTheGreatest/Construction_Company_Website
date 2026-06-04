@@ -58,7 +58,7 @@ export function HeroSection() {
           <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             {[
               { value: '500+', label: 'Projects' },
-              { value: '200+', label: 'Clients' },
+              { value: '480+', label: 'Clients' },
               { value: '1000+', label: 'Employees' },
               { value: '99.5%', label: 'Satisfaction' },
             ].map((stat, index) => (
