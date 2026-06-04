@@ -88,7 +88,7 @@ export function ContactCTASection() {
             >
               <Mail className="w-8 h-8 text-[#D4AF37] mb-4 mx-auto" />
               <h3 className="text-lg font-semibold text-[#F5F5F5] mb-2">Email Us</h3>
-              <p className="text-[#999999]">info@risesolution.sa</p>
+              <p className="text-[#999999]">risesaloution@gmail.com</p>
             </motion.div>
           </div>
         </motion.div>

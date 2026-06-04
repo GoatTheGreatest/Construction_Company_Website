@@ -119,7 +119,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3 text-[#999999]">
                 <MapPin className="w-5 h-5 text-[#D4AF37] mt-0.5 flex-shrink-0" />
-                <span>Riyadh, Kingdom of Saudi Arabia</span>
+                <span>Jeddah, Kingdom of Saudi Arabia</span>
               </li>
               <li className="flex items-start space-x-3 text-[#999999]">
                 <Phone className="w-5 h-5 text-[#D4AF37] mt-0.5 flex-shrink-0" />
@@ -134,7 +134,7 @@ export function Footer() {
               </li>
               <li className="flex items-start space-x-3 text-[#999999]">
                 <Mail className="w-5 h-5 text-[#D4AF37] mt-0.5 flex-shrink-0" />
-                <span>info@risesolution.sa</span>
+                <span>risesaloution@gmail.com</span>
               </li>
             </ul>
           </div>

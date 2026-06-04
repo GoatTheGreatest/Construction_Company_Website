@@ -45,17 +45,17 @@ export function ContactPage() {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+966 50 020 8019', '+966 54 321 7654'],
+      details: ['+966 50 020 8019'],
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@risesolution.sa', 'sales@risesolution.sa'],
+      details: ['risesaloution@gmail.com'],
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: ['Riyadh, Kingdom of Saudi Arabia', 'P.O. Box 12345'],
+      details: ['Jeddah, Kingdom of Saudi Arabia'],
     },
     {
       icon: Clock,
@@ -119,7 +119,7 @@ export function ContactPage() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg bg-[#121212] border border-[#D4AF37]/20 text-[#F5F5F5] focus:border-[#D4AF37]/40 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]/20 transition-all duration-300"
-                      placeholder="Ahmed Al-Rashid"
+                      placeholder="Name"
                     />
                   </div>
 
@@ -135,7 +135,7 @@ export function ContactPage() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg bg-[#121212] border border-[#D4AF37]/20 text-[#F5F5F5] focus:border-[#D4AF37]/40 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]/20 transition-all duration-300"
-                      placeholder="ahmed@example.com"
+                      placeholder="name@example.com"
                     />
                   </div>
                 </div>
@@ -288,7 +288,7 @@ export function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-2xl overflow-hidden border border-[#D4AF37]/20 h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.1536479307867!2d46.6752957!3d24.7135517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.63606413403!2d39.0216321150544!3d21.54333319608219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d6e1c506c89d%3A0x8dbb3712b4cc449!2sJeddah%2C%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1690000000000!5m2!1sen!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}
